@@ -15,6 +15,12 @@
     [MGJRouter registerURLPattern:R_Detail toHandler:^(NSDictionary *routerParameters) {
         NSLog(@"====routerParameters:%@",routerParameters);
     }];
+    [MGJRouter registerURLPattern:R_AA toHandler:^(NSDictionary *routerParameters) {
+        NSLog(@"====routerParameters:%@",routerParameters);
+    }];
+    [MGJRouter registerURLPattern:R_AB toHandler:^(NSDictionary *routerParameters) {
+        NSLog(@"====routerParameters:%@",routerParameters);
+    }];
 }
 
 @end
