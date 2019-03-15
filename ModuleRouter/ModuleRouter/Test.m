@@ -7,7 +7,7 @@
 //
 
 #import "Test.h"
-
+#import <MGJRouter/MGJRouter.h>
 @implementation Test
 
 @end
