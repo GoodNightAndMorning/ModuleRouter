@@ -59,7 +59,9 @@
         [vc setValue:params[key] forKey:key];
     }
     
-    UINavigationController *navi = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    UITabBarController *tb = (UITabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    
+    UINavigationController *navi = tb.selectedViewController;
     
     [navi pushViewController:vc animated:YES];
 }
