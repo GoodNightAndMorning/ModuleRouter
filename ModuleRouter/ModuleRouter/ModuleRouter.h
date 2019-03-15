@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "Test.h"
+#import "SXRouter.h"
+#import "SXRouter.h"
 //! Project version number for ModuleRouter.
 FOUNDATION_EXPORT double ModuleRouterVersionNumber;
 

@@ -9,6 +9,6 @@
 #ifndef SXControllerName_h
 #define SXControllerName_h
 
-
+#define R_Detail @"mgj://detail"
 
 #endif /* SXControllerName_h */

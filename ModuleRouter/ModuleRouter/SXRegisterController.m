@@ -7,11 +7,14 @@
 //
 
 #import "SXRegisterController.h"
+#import "SXControllerName.h"
 #import <MGJRouter/MGJRouter.h>
 @implementation SXRegisterController
 +(void)load {
-    [MGJRouter registerURLPattern:@"mgj://detail" toHandler:^(NSDictionary *routerParameters) {
+    NSLog(@"====SXRegisterController load");
+    [MGJRouter registerURLPattern:R_Detail toHandler:^(NSDictionary *routerParameters) {
         NSLog(@"====routerParameters:%@",routerParameters);
     }];
 }
+
 @end

@@ -7,9 +7,10 @@
 //
 
 #import "SXRouter.h"
+#import "SXControllerName.h"
 #import <MGJRouter/MGJRouter.h>
 @implementation SXRouter
 -(void)toClassWithOrderId:(NSString *)orderId {
-    [MGJRouter openURL:@"mgj://detail" completion:nil];
+    [MGJRouter openURL:R_Detail completion:nil];
 }
 @end
