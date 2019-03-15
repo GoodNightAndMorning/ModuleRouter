@@ -10,8 +10,10 @@
 		186329C2223B35D70079F64F /* ModuleRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186329B8223B35D60079F64F /* ModuleRouter.framework */; };
 		186329C7223B35D70079F64F /* ModuleRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329C6223B35D70079F64F /* ModuleRouterTests.m */; };
 		186329C9223B35D70079F64F /* ModuleRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329BB223B35D60079F64F /* ModuleRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		186329D4223B39D20079F64F /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329D2223B39D20079F64F /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		186329D5223B39D20079F64F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329D3223B39D20079F64F /* Test.m */; };
+		186329D9223B3D650079F64F /* SXRegisterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329D7223B3D650079F64F /* SXRegisterController.h */; };
+		186329DA223B3D650079F64F /* SXRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329D8223B3D650079F64F /* SXRegisterController.m */; };
+		186329DD223B3F660079F64F /* SXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329DB223B3F660079F64F /* SXRouter.h */; };
+		186329DE223B3F660079F64F /* SXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329DC223B3F660079F64F /* SXRouter.m */; };
 		235140542F6FE2776BD63B12 /* libPods-ModuleRouterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029B9CBA5FBF3C8F9CDFB10 /* libPods-ModuleRouterTests.a */; };
 		B8D54A05406E4139181CE1A6 /* libPods-ModuleRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F86C8F79D4B223D2FF31B84 /* libPods-ModuleRouter.a */; };
 /* End PBXBuildFile section */
@@ -34,8 +36,11 @@
 		186329C1223B35D70079F64F /* ModuleRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186329C6223B35D70079F64F /* ModuleRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleRouterTests.m; sourceTree = "<group>"; };
 		186329C8223B35D70079F64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186329D2223B39D20079F64F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		186329D3223B39D20079F64F /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		186329D6223B3D320079F64F /* SXControllerName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXControllerName.h; sourceTree = "<group>"; };
+		186329D7223B3D650079F64F /* SXRegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXRegisterController.h; sourceTree = "<group>"; };
+		186329D8223B3D650079F64F /* SXRegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXRegisterController.m; sourceTree = "<group>"; };
+		186329DB223B3F660079F64F /* SXRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXRouter.h; sourceTree = "<group>"; };
+		186329DC223B3F660079F64F /* SXRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXRouter.m; sourceTree = "<group>"; };
 		3F86C8F79D4B223D2FF31B84 /* libPods-ModuleRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		470145B2E5BE13D26CC15724 /* Pods-ModuleRouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleRouterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleRouterTests/Pods-ModuleRouterTests.release.xcconfig"; sourceTree = "<group>"; };
 		4DDA8C620C109D059007DC3B /* Pods-ModuleRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleRouter/Pods-ModuleRouter.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,8 +94,11 @@
 			children = (
 				186329BB223B35D60079F64F /* ModuleRouter.h */,
 				186329BC223B35D60079F64F /* Info.plist */,
-				186329D2223B39D20079F64F /* Test.h */,
-				186329D3223B39D20079F64F /* Test.m */,
+				186329D6223B3D320079F64F /* SXControllerName.h */,
+				186329D7223B3D650079F64F /* SXRegisterController.h */,
+				186329D8223B3D650079F64F /* SXRegisterController.m */,
+				186329DB223B3F660079F64F /* SXRouter.h */,
+				186329DC223B3F660079F64F /* SXRouter.m */,
 			);
 			path = ModuleRouter;
 			sourceTree = "<group>";
@@ -131,8 +139,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186329D4223B39D20079F64F /* Test.h in Headers */,
+				186329D9223B3D650079F64F /* SXRegisterController.h in Headers */,
 				186329C9223B35D70079F64F /* ModuleRouter.h in Headers */,
+				186329DD223B3F660079F64F /* SXRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186329D5223B39D20079F64F /* Test.m in Sources */,
+				186329DA223B3D650079F64F /* SXRegisterController.m in Sources */,
+				186329DE223B3F660079F64F /* SXRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
