@@ -51,6 +51,8 @@
     Class cl = NSClassFromString(vcStr);
     UIViewController *vc = [[cl alloc] init];
     
+    vc.hidesBottomBarWhenPushed = YES;
+    
     NSDictionary *params = routerParameters[MGJRouterParameterUserInfo];
     
     for (NSString *key in params) {
