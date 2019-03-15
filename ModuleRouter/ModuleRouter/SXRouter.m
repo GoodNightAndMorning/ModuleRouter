@@ -22,4 +22,22 @@
     [MGJRouter openURL:R_ACViewController completion:nil];
 }
 
++(void)BAToABWithOrderId:(NSString *)orderId andBlock:(void (^)(void))block {
+    NSDictionary *params = @{@"orderId" : orderId,
+                             @"block"   : block
+                             };
+    [MGJRouter openURL:R_ABViewController withUserInfo:params completion:nil];
+}
++(void)BAToBB {
+    [MGJRouter openURL:R_BBViewController completion:nil];
+}
+    +(void)BBToAV {
+        [MGJRouter openURL:R_ACViewController completion:nil];
+    }
+    +(void)BBToBC {
+        [MGJRouter openURL:R_BCViewController completion:nil];
+    }
+        +(void)BCToAC {
+            [MGJRouter openURL:R_ACViewController completion:nil];
+        }
 @end

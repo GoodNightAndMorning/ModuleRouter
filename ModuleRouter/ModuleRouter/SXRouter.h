@@ -11,5 +11,11 @@
 @interface SXRouter : NSObject
 +(void)AAToABWithOrderId:(NSString *)orderId andBlock:(void(^)(void))block;
     +(void)ABToAC;
+
++(void)BAToABWithOrderId:(NSString *)orderId andBlock:(void(^)(void))block;
++(void)BAToBB;
+    +(void)BBToAV;
+    +(void)BBToBC;
+        +(void)BCToAC;
 @end
 

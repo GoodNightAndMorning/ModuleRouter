@@ -13,4 +13,7 @@
 #define R_ABViewController @"mgj://ABViewController"
 #define R_ACViewController @"mgj://ACViewController"
 
+#define R_BAViewController @"mgj://BAViewController"
+#define R_BBViewController @"mgj://BBViewController"
+#define R_BCViewController @"mgj://BCViewController"
 #endif /* SXControllerName_h */

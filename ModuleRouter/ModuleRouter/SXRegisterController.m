@@ -24,6 +24,16 @@
     [MGJRouter registerURLPattern:R_ACViewController toHandler:^(NSDictionary *routerParameters) {
         [self pushViewController:routerParameters];
     }];
+    
+    [MGJRouter registerURLPattern:R_BAViewController toHandler:^(NSDictionary *routerParameters) {
+        [self pushViewController:routerParameters];
+    }];
+    [MGJRouter registerURLPattern:R_BBViewController toHandler:^(NSDictionary *routerParameters) {
+        [self pushViewController:routerParameters];
+    }];
+    [MGJRouter registerURLPattern:R_BCViewController toHandler:^(NSDictionary *routerParameters) {
+        [self pushViewController:routerParameters];
+    }];
 }
 
 /**
