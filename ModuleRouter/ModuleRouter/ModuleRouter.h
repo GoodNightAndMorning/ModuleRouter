@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Test.h"
 //! Project version number for ModuleRouter.
 FOUNDATION_EXPORT double ModuleRouterVersionNumber;
 

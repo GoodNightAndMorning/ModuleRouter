@@ -10,6 +10,8 @@
 		186329C2223B35D70079F64F /* ModuleRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186329B8223B35D60079F64F /* ModuleRouter.framework */; };
 		186329C7223B35D70079F64F /* ModuleRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329C6223B35D70079F64F /* ModuleRouterTests.m */; };
 		186329C9223B35D70079F64F /* ModuleRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329BB223B35D60079F64F /* ModuleRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186329D4223B39D20079F64F /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 186329D2223B39D20079F64F /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186329D5223B39D20079F64F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 186329D3223B39D20079F64F /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		186329C1223B35D70079F64F /* ModuleRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186329C6223B35D70079F64F /* ModuleRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleRouterTests.m; sourceTree = "<group>"; };
 		186329C8223B35D70079F64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186329D2223B39D20079F64F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		186329D3223B39D20079F64F /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				186329BB223B35D60079F64F /* ModuleRouter.h */,
 				186329BC223B35D60079F64F /* Info.plist */,
+				186329D2223B39D20079F64F /* Test.h */,
+				186329D3223B39D20079F64F /* Test.m */,
 			);
 			path = ModuleRouter;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186329D4223B39D20079F64F /* Test.h in Headers */,
 				186329C9223B35D70079F64F /* ModuleRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186329D5223B39D20079F64F /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
